@@ -1,10 +1,10 @@
-package hello.nostarter;
+package hello;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NoStarterApplicationTests {
+class AutoConfigApplicationTests {
 
     @Test
     void contextLoads() {
