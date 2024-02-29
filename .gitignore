@@ -1,7 +1,6 @@
 .DS_Store
 gradle
 settings.gradle
-build.gradle
 gradlew
 gradlew.bat
 
