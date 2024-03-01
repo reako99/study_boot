@@ -3,7 +3,8 @@ gradle
 settings.gradle
 gradlew
 gradlew.bat
-
+libs/
+libs/*s
 
 HELP.md
 .gradle
