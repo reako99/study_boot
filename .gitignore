@@ -5,6 +5,8 @@ gradlew
 gradlew.bat
 libs/
 libs/*s
+programmers
+programmers/*
 
 HELP.md
 .gradle
