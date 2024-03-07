@@ -27,12 +27,12 @@ public class CommandLineV2 {
         }
 
         List<String> url = appArgs.getOptionValues("url");
-        List<String> username = appArgs.getOptionValues("username");
+        List<String> username = appArgs.getOptionValues("my_username");
         List<String> password = appArgs.getOptionValues("password");
         List<String> mode = appArgs.getOptionValues("mode");
 
         log.info("url={}",url);
-        log.info("username={}",username);
+        log.info("my_username={}",username);
         log.info("password={}",password);
         log.info("mode={}",mode);
 

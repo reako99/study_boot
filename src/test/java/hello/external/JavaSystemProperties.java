@@ -19,11 +19,11 @@ public class JavaSystemProperties {
         }
 
         String url = System.getProperty("url");
-        String username = System.getProperty("username");
+        String username = System.getProperty("my_username");
         String password = System.getProperty("password");
 
         log.info("url={}",url);
-        log.info("username={}",username);
+        log.info("my_username={}",username);
         log.info("password={}",password);
 
     }
