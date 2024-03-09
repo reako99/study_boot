@@ -27,11 +27,11 @@ public class MyDataSource {
 
     @PostConstruct
     public void init(){
-        log.info("");
-        log.info("");
-        log.info("");
-        log.info("");
-        log.info("");
-        log.info("");
+        log.info("url={}", url);
+        log.info("my_username={}", my_username);
+        log.info("password={}", password);
+        log.info("maxConnection={}", maxConnection);
+        log.info("timeout={}", timeout);
+        log.info("options={}", options);
     }
 }
