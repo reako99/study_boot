@@ -16,6 +16,8 @@ management:
       enabled: true
     git:
       mode: "full"
+  server:
+    port: 9292
 info:
   app:
     name: hello-actuator
